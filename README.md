@@ -4,7 +4,7 @@ Speed up, allow skipping, and stop auto-pausing on EdPuzzle.com.
 
 ## Installation
 
-Install a userscript manager like Tampermonkey or Greasymonkey on your web browser. (This script was built with Tampermonkey on Firefox, but it should work everywhere.)
+Install a userscript manager like [Tampermonkey](https://tampermonkey.net/) or [Greasymonkey](https://greasespot.net/) on your web browser. (This script was built with Tampermonkey on Firefox, but it should work everywhere.)
 
 Once you have a userscript manager installed you can use this convenient install link:
 [Install](https://github.com/Enchoseon/better-edpuzzle-userscript/raw/main/better-edpuzzle-userscript.user.js)
