@@ -22,7 +22,7 @@ VIMEO                   | No            | Yes                 | Yes             
 VIMEO_WITH_CONTROLS     | No            | Yes                 | Yes                      |
 EDPUZZLE                | No            | Yes                 | Yes                      |
 FILE                    | No            | Yes                 | Yes                      |
-youtube-nocookies.com   | No            | Yes                 | Yes                      |
+youtube-nocookies.com   | Yes           | Yes                 | Yes                      |
 
 **Important Note for Learning Management Systems**: The media source value is an internal API value, some videos marked "EdPuzzle" may use a special YouTube player that uses *youtube-nocookies.com*. I've seen this happen with private videos that need a one-time token from a learning management system like Canvas, Schoology, Moodle, Blackboard, PowerSchool, & Blackbaud.
 
