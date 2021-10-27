@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Better EdPuzzle
 // @namespace    https://github.com/Enchoseon/better-edpuzzle-userscript/raw/main/better-edpuzzle-userscript.user.js
-// @version      0.7.1
+// @version      0.7.2
 // @description  Speed up, allow skipping, and stop auto-pausing on EdPuzzle.com.
 // @author       Enchoseon
 // @include      *edpuzzle.com/lti/*
@@ -38,7 +38,7 @@
         }
     }
     if (window != window.top && (window.location.href.includes("youtube.com/embed/") || window.location.href.includes("youtube-nocookie.com/embed/")) && window.location.href.includes("origin=https://edpuzzle.com")) { // YouTube speedhack (sticking this in the speedhack function would require a bunch of postMessage BS to get around CORs. Wish I could just grant myself the permission to access the iframe (e.g. document.getElementsByTagName("iframe")[0].contentWindow.document.getElementsByTagName("video")[0].playbackRate = config.speed;))
-        window.addEventListener("load", function() {
+        window.addEventListener("click", function() {
             console.log(window.location.href);
             document.getElementsByTagName("video")[0].playbackRate = config.speed;
         });
