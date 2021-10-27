@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Better EdPuzzle
 // @namespace    https://github.com/Enchoseon/better-edpuzzle-userscript/raw/main/better-edpuzzle-userscript.user.js
-// @version      0.6.9
+// @version      0.7.1
 // @description  Speed up, allow skipping, and stop auto-pausing on EdPuzzle.com.
 // @author       Enchoseon
 // @include      *edpuzzle.com/lti/*
